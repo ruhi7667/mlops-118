@@ -23,6 +23,7 @@ jobs:
         - name: Mock - Build Docker Image
           run : echo "Docker build"
 
+
         - name: Mock - Push image to ECR
           id : build
           run : echo "Docker push"
